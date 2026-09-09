@@ -1,0 +1,8 @@
+{
+  "name": "Remix  Route X",
+  "description": "Smart transport and bus reservation application for seamless route planning, 24-seat selection, instant simulated payments (KBZPay, Wave Pay,CB Pay , AYA Pay Cash), digital boarding passes, and comprehensive fleet \u0026 trip admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
