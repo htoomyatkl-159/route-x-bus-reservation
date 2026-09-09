@@ -4,6 +4,7 @@ import path from 'path';
 import crypto from 'crypto';
 import { db, hashPassword, verifyPassword, DbUser, DbSession } from './server/db.ts';
 import { PaymentMethod } from './src/types.ts';
+
 export interface AuthenticatedRequest extends Request {
   user?: DbUser;
   session?: DbSession;
