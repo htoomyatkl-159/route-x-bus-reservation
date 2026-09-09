@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
-import { Bus, Route, TripSchedule, Booking, BookingStatus, User, CityName, PaymentMethod, SeatLock } from '../src/types';
-import { CITIES, INITIAL_BUSES, INITIAL_ROUTES, INITIAL_BOOKINGS } from '../src/data/mockData';
+import { Bus, Route, TripSchedule, Booking, BookingStatus, User, CityName, PaymentMethod, SeatLock } from '../src/types.ts';
+import { CITIES, INITIAL_BUSES, INITIAL_ROUTES, INITIAL_BOOKINGS } from '../src/data/mockData.ts';
 
 export interface DbUser extends User {
   passwordHash: string;
